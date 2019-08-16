@@ -15,23 +15,7 @@ import java.io.InputStreamReader;
  */
 public class logicaz {
        public static void procesarInfo(int n,int i, int j,String juego[][],String mensaje){
-        /*BufferedReader recibir = new BufferedReader(new InputStreamReader(System.in));
-        String juego[][];
-        juego = new String[3][3];//matrices
-        
-        int fila;
-        int columna;
-        for (int a = 0; a <= 2; a = a + 1) {
-            for (int b = 0; b <= 2; b = b + 1) {
-                juego[a][b] = "?";
-                int dato;
-                int dato1;
-                int datob;
-                int datob2;
-            }
-
-        }
-*/
+       
 //tablero
         System.out.println(" 0   1   2");
         System.out.println("0 " + juego[0][0] + " | " + juego[0][1] + " | " + juego[0][2]);
